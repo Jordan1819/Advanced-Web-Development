@@ -1,0 +1,62 @@
+
+body {
+    background-color: gray;
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border: 1px black;
+    
+}
+
+#topOfPage {
+    display: grid;
+    grid-template-columns: 3;
+    gap: 1.5px;
+    background-color: skyblue;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 2.5px 2.5px black;
+}
+
+#photo {
+    width: 400px;
+    height: auto;
+    float: left;
+    border-radius: 25px;
+    
+}
+
+#name {
+    margin-top: 125px;
+    text-shadow: 2.5px 2.5px black;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 50px;
+}
+
+#header1 {
+    text-decoration: underline white;
+    font-size: 35px;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+a:visited {
+    color: skyblue;
+}
+
+footer {
+    border: 1px black;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
