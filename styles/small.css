@@ -6,42 +6,34 @@ body {
     margin: 0 auto;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     border: 1px black;
 }
 
 #topOfPage {
-    display: grid;
-    grid-template-columns: 3;
     gap: 1.5px;
     background-color: skyblue;
-    border-radius: 25px;
+    border-radius: 15px;
     border: 2px solid black;
-    padding: 5px;
     box-shadow: 2.5px 2.5px black;
 }
 
 #photo {
-    width: 400px;
+    width: 200px;
     height: auto;
-    float: left;
     border-radius: 25px;
-    
 }
 
 #name {
-    margin-top: 125px;
     text-shadow: 2.5px 2.5px black;
     grid-column-start: 2;
     grid-column-end: 3;
-    font-size: 50px;
+    font-size: 25px;
 }
 
 #header1 {
     text-decoration: underline white;
-    font-size: 35px;
-    
-    
+    font-size: 20px;
 }
 
 ul {
@@ -55,6 +47,6 @@ a:visited {
 
 footer {
     border: 1px black;
-    font-size: 17px;
+    font-size: 10px;
     margin-top: 20px;
 }
