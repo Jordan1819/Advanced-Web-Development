@@ -1,0 +1,88 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: gray;
+    width: 70%;
+    margin: 0 auto;
+}
+
+p {
+    color: black;
+}
+
+.footerWrap {
+    width: 100%;
+    bottom: 0px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: navy;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: navy;
+    border-radius: 25px;
+}
+
+h2 {
+    font-size: 200%;
+    background-color: navy;
+    border-radius: 20px;
+    text-align: center;
+    margin: -6px;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 150%;
+    text-decoration: underline white;
+}
+
+img {
+    width: auto;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    padding-bottom: 10px;
+    text-align: center;
+    gap: 10px;
+}
+
+.section1 {
+    border: 3px solid navy;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: lightgray;
+    
+}
+
+.section2 {
+    border: 3px solid navy;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: lightgray;
+    text-align: center;
+    grid-column: 2;
+    
+}
+
+.section3 {
+    border: 3px solid navy;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: lightgray;
+    text-align: center;
+    grid-column: 3;
+    
+}
