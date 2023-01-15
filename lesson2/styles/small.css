@@ -9,6 +9,7 @@
         text-align: center;
         background-color: lightgray;
         grid-column: 1;
+        grid-row: 1;
         width: 350px;
     }
     
@@ -19,6 +20,7 @@
         background-color: lightgray;
         text-align: center;
         grid-column: 1;
+        grid-row: 2;
         width: 350px;
     }
     
@@ -29,6 +31,7 @@
         background-color: lightgray;
         text-align: center;
         grid-column: 1;
+        grid-row: 3;
         width: 350px;
     }
 }

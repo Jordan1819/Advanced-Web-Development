@@ -12,7 +12,7 @@
     .page {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 
     .section1 {
@@ -26,7 +26,6 @@
         border: 3px solid navy;
         border-radius: 20px;
         padding: 5px;
-        
     }
 
     .section3 {

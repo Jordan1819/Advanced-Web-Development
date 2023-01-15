@@ -54,6 +54,8 @@ img {
     padding-bottom: 10px;
     text-align: center;
     gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
 }
 
 .section1 {
@@ -63,6 +65,7 @@ img {
     text-align: center;
     background-color: lightgray;
     width: 350px;
+    grid-column: 1;
 }
 
 .section2 {
@@ -72,6 +75,7 @@ img {
     background-color: lightgray;
     text-align: center;
     width: 350px;
+    grid-column: 2;
 }
 
 .section3 {
@@ -80,4 +84,5 @@ img {
     padding: 5px;
     background-color: lightgray;
     text-align: center;
+    
 }
