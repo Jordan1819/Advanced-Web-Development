@@ -65,3 +65,27 @@ nav a:hover {
 main {
     align-items: center;
 }
+h3 {
+    margin: 15px;
+}
+.personaHeader {
+    text-align: center;
+}
+.personaDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul {
+    margin: 10px;
+    margin-left: 20px;
+}
+.typographyHeader {
+    text-align: center;
+}
+.colorHeader {
+    text-align: center;
+}
+.purposeHeader {
+    text-align: center;
+}
