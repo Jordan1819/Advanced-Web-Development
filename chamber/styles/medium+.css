@@ -1,0 +1,25 @@
+@media only screen and (min-width: 750px) {
+    nav {
+        flex-direction: row;
+    }
+    nav div {
+        padding-top: 25px;
+    }
+    .logo {
+        margin-bottom: -9px;
+        width: 300px;
+        height: auto;
+        border-radius: 20% 20% 0 0;
+    }
+    nav a {
+        font-size: 1.75rem;
+    }
+
+
+
+
+
+
+
+
+}
