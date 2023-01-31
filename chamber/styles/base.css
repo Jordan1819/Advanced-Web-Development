@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 body {
@@ -13,20 +12,17 @@ header {
     margin: 0;
     color: white;
     padding: 5px;
-    justify-content: center;
 }
 header,
 nav,
 body,
 footer {
-    max-width: 1260px;
     margin: 0 auto;
 }
 .headHeader {
     font-size: 1.5em;
     margin: 0px;
     padding: 10px;
-    display: flex;
 }
 .navigation li {
     display: none;
@@ -49,19 +45,19 @@ footer {
 #menu {
     text-decoration: none;
     font-size: 4em;
-    
+    list-style: none;
 }
 a.fa.fa-facebook {
     font-size: 40px;
     text-decoration: none;
     margin-right:10px;
-    
     width: 50px;
 }
 a.fa.fa-twitter {
     font-size: 40px;
     text-decoration: none;
-    margin-right:10px;
+    margin-right:15px;
+    margin-left: -10px;
 }
 a:visited {
     color: white;
@@ -108,8 +104,10 @@ article {
     height: 75px;
     width: auto;
     border-radius: 25px;
+    margin: 5px;
 }
 footer {
     background-color: #156c41;
     color: white;
 }
+
