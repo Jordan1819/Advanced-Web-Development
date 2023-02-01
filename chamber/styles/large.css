@@ -1,9 +1,5 @@
 @media only screen and (min-width: 1200px) {
 
-    .headHeader {
-        font-size: 2em;
-        margin: 0;
-    }
     #menu {
         display: none;
     }
@@ -24,7 +20,24 @@
         margin: 0;
         padding: 0;
     }
-    footer {
+    header {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr 1fr;
+        position: relative;
+    }
+    .headHeader {
+        font-size: 2em;
+        margin: 0;
+        grid-column: 2 / 4;
+    }
+    .headerDate {
+        grid-column: 3;
         text-align: center;
+        grid-row: 2;
+        bottom: 10%;
+        font-size: 1.75em;
+        position: absolute;
+        border: 2px white;
     }
 }

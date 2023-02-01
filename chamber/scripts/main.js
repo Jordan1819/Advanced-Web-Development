@@ -9,14 +9,13 @@ const menuButton = document.querySelector('#menu');
 menuButton.addEventListener('click', () =>
 {mainNav.classList.toggle('responsive')}, false);
 
-document.querySelector()
-
 /* The code below is for inserting the current date
 into the header and footer */
 
-const d = new Date();
+const d = new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) 
+;
 
-const head = `Current Date: ${d}.`;
+const head = `${d}`;
 const foot = `Last Updated: ${d}.`;
 
 
