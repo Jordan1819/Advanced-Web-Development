@@ -15,6 +15,9 @@
     margin-left: 10px;
     margin-right: 10px;
     }
+    .headerDate {
+        grid-column: 2;
+    }
     .spotlight {
         display: grid;
         grid-template-columns: 1fr, 1fr;   

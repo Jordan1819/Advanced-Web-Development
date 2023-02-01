@@ -7,7 +7,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3em;
+    position: relative;
     background-color: #156c41;
     margin: 0;
     color: white;
@@ -25,7 +28,13 @@ footer {
     padding: 10px;
 }
 .headerDate {
-    visibility: visible;
+    grid-column: 2 / 5;
+    text-align: center;
+    grid-row: 2;
+    bottom: 10%;
+    font-size: 1.75em;
+    position: absolute;
+
 }
 .navigation li {
     display: none;
@@ -49,18 +58,21 @@ footer {
     text-decoration: none;
     font-size: 4em;
     list-style: none;
+    text-align: center;
 }
 a.fa.fa-facebook {
     font-size: 40px;
     text-decoration: none;
     margin-right:10px;
     width: 50px;
+    text-align: center;
 }
 a.fa.fa-twitter {
     font-size: 40px;
     text-decoration: none;
     margin-right:15px;
     margin-left: -10px;
+    text-align: center;
 }
 a:visited {
     color: white;
