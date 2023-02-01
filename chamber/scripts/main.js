@@ -11,17 +11,17 @@ menuButton.addEventListener('click', () =>
 
 document.querySelector()
 
-/*headerDate and footerDate are the 
-div classes that need referenced */
-
 /* The code below is for inserting the current date
 into the header and footer */
 
 const d = new Date();
-const fulldate = `Current Date: ${d}`;
 
-const head = `Current Date: ${fulldate}.`;
-const foot = `Last Updated: ${fulldate}.`;
+const head = `Current Date: ${d}.`;
+const foot = `Last Updated: ${d}.`;
 
-document.querySelector('headerDate').innerHTML = head;
-document.querySelector('footerDate').innerHTML = foot;
+
+const headerDate = document.querySelector('.headerDate');
+const footerDate = document.querySelector('.footerDate');
+
+headerDate.textContent = head;
+footerDate.textContent = foot;

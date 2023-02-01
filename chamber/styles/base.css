@@ -24,6 +24,9 @@ footer {
     margin: 0px;
     padding: 10px;
 }
+.headerDate {
+    visibility: visible;
+}
 .navigation li {
     display: none;
     justify-content: center;
