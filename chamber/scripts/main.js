@@ -25,3 +25,5 @@ const footerDate = document.querySelector('.footerDate');
 
 headerDate.textContent = head;
 footerDate.textContent = foot;
+
+document.querySelector('.headerDate').textContent = head;
