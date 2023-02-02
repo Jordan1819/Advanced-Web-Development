@@ -30,13 +30,19 @@
         font-size: 2em;
         margin: 0;
         grid-column: 2 / 4;
+        position: relative;
+        top: 10%;
     }
     .headerDate {
         grid-column: 3;
         text-align: center;
         grid-row: 2;
         bottom: 10%;
-        font-size: 1.75em;
+        font-size: 2.5em;
         position: absolute;
+    }
+    .logo {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
     }
 }
