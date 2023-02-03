@@ -7,9 +7,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 header {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 3em;
     position: relative;
     background-color: #156c41;
     margin: 0;
@@ -22,6 +19,11 @@ body,
 footer {
     margin: 0 auto;
 }
+.headerGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3em;
+}
 .headHeader {
     font-size: 1.5em;
     margin: 0px;
@@ -33,7 +35,6 @@ footer {
     grid-row: 2;
     bottom: 10%;
     font-size: 1.5em;
-    position: absolute;
 }
 .navigation li {
     display: none;
@@ -41,12 +42,12 @@ footer {
 }
 .navigation {
     margin: 0 auto;
-    max-width: 750px;
     list-style: none;
     color: white;
     text-align: center;
     font-size: 2em;
     line-height: 1.5em;
+    display: block;
 }
 .navigation a {
     text-decoration: none;
@@ -78,6 +79,10 @@ a:visited {
 }
 .responsive li {
     display: block;
+}
+ul.navigation.responsive {
+    background-image: url('../images/bannerImage.jpg');
+    background-size: cover;
 }
 .responsive #menu::before {
     content: "X";

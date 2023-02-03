@@ -15,16 +15,23 @@
         max-width: 1200px;
         justify-content: center;
         list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 5em;
+        margin-top: 15px;
     }
     .navigation ul li {
         margin: 0;
         padding: 0;
     }
-    header {
+    .headerGrid {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: 1fr .25fr;
         position: relative;
+    }
+    nav {
+        background-image: none;
     }
     .headHeader {
         font-size: 2em;
@@ -79,5 +86,8 @@
         grid-row:2;
         margin-top: 10px;
         text-align: center;
+    }
+    ul.navigation.responsive {
+        background-image: none;
     }
 }
