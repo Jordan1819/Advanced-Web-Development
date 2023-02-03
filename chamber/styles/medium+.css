@@ -4,9 +4,9 @@
     }
     .logo {
         margin-bottom: -9px;
-        width: 300px;
+        width: 150px;
         height: auto;
-        border-radius: 20% 20% 0 0;
+        border-radius: 25px;
     }
     nav a {
         font-size: 1.75rem;
@@ -16,7 +16,8 @@
     margin-right: 10px;
     }
     .headerDate {
-        grid-column: 2 / 3;
+        grid-column: 3 / 5;
+        justify-content: center;
     }
     .spotlight {
         display: grid;
@@ -43,11 +44,29 @@
         margin: 0;
         width: auto;
     }
-
-
-
-
-
-
-
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr .5fr;
+    }
+    .footerLogo {
+        grid-column: 1;
+        margin: 5px;
+    }
+    .footerHeader {
+        margin-top: 20px;
+        grid-column: 2 / 4;
+    }
+    .footerInfo {
+        grid-column: 4;
+    }
+    .footerTag {
+        grid-column: 2 / 4;
+        grid-row: 2;
+    }
+    .footerDate {
+        grid-column: 2 / 4;
+        grid-row:2;
+        margin-top: 50px;
+    }
 }
