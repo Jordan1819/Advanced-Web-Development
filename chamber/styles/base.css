@@ -8,7 +8,7 @@ body {
 }
 header {
     position: relative;
-    background-color: #156c41;
+    background-image: linear-gradient(rgb(0, 35, 0),#156c41);
     margin: 0;
     color: white;
     padding: 5px;
@@ -22,10 +22,10 @@ footer {
 .headerGrid {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 3em;
+    grid-template-rows: 1fr 2em;
+    border-bottom: 10px double #DADAD9;
 }
 .headHeader {
-    font-size: 1.5em;
     margin: 0px;
     padding: 10px;
 }
@@ -39,6 +39,7 @@ footer {
 .navigation li {
     display: none;
     justify-content: center;
+    list-style-position: outside;
 }
 .navigation {
     margin: 0 auto;
@@ -63,16 +64,13 @@ footer {
 a.fa.fa-facebook {
     font-size: 40px;
     text-decoration: none;
-    margin-right:10px;
-    width: 50px;
-    text-align: center;
+    justify-self: end;
 }
 a.fa.fa-twitter {
     font-size: 40px;
     text-decoration: none;
-    margin-right:15px;
-    margin-left: -10px;
-    text-align: center;
+    justify-self: center;
+    
 }
 a:visited {
     color: white;
@@ -88,11 +86,7 @@ ul.navigation.responsive {
     content: "X";
 }
 h1 {
-    font-size: 2em;
-}
-h2 {
-    font-size: 1.5em;
-    margin: 20px;
+    font-size: 2.25em;
 }
 p {
     padding: 5px;
@@ -111,14 +105,52 @@ nav a:hover {
 }
 main {
     align-items: center;
+    background-color: #156c41;
+}
+h2 {
+    color: white;
+    text-shadow: 0 0 3px black;
+    font-size: 1.75em;
+    margin: 20px;
 }
 h3 {
     margin: 15px;
+    color: white;
 }
 article {
-    background-color: gray;
-    border: 2px dotted black;
+    background-image: linear-gradient(#5D4A66, rgb(41, 14, 41));
+    border: 2px outset #DADAD9;
+    text-align: center;
+    margin: 2px;
 }
+article:first-child {
+    margin-top: 0px;
+}
+article:last-child {
+    margin-bottom: 0px;
+}
+.welcomeA {
+    background-image: url('../images/cityImage.jpg');
+    background-size: cover;
+}
+.joinButton {
+    width: 10em;
+    height: 2.5em;
+    color: white;
+    border-radius: 25px;
+    position: relative;
+    left: 100px;
+    background-color: #156c41;
+    font-size: 1.5em;
+}
+.spotlight2 {
+    margin-bottom: 0px;
+}
+.spotlight3 {
+    display: none;
+    margin-bottom: 0px;
+}
+
 .footerLogo {
     width: 100px;
     height: auto;
@@ -129,7 +161,7 @@ article {
     margin-top: 10px;
 }
 footer {
-    background-color: #156c41;
+    background-image: linear-gradient(#156c41, rgb(0, 35, 0));
     color: white;
     text-align: center;
     font-size: 1.25em;

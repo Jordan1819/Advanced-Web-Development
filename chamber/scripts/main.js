@@ -17,7 +17,7 @@ const yearDate = new Date();
 const year = yearDate.getFullYear();
 
 const head = `${d}`;
-const foot = `Last Updated: ${d}.`;
+const foot = `Last Updated: ${d}`;
 const footTag = `©${year} Idaho Falls Chamber of Commerce | Jordan Waite | WDD 230 Project`;
 
 

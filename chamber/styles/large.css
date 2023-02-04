@@ -24,6 +24,18 @@
         margin: 0;
         padding: 0;
     }
+    ul.navigation.responsive {
+        background-image: none;
+    }
+    ul a {display:block;
+        width:200px;
+        position: relative;
+    }
+    nav a:hover {
+        background-color: white; 
+        opacity: .75;
+        color: black;
+    }
     .headerGrid {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -87,7 +99,5 @@
         margin-top: 10px;
         text-align: center;
     }
-    ul.navigation.responsive {
-        background-image: none;
-    }
+
 }
