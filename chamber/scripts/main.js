@@ -30,3 +30,13 @@ footerDate.textContent = foot;
 footerTag.textContent = footTag;
 
 document.querySelector('.headerDate').textContent = head;
+
+/* The code below is for displaying a promotional
+message on Mondays and Tuesdays */
+const promotion = document.querySelector('.promotion');
+const date = new Date();
+const currentDay = date.getDay();
+
+if (currentDay == 1 || currentDay == 2) {
+    promotion.style.display = 'block';
+}
