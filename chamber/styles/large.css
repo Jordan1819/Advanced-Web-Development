@@ -119,7 +119,7 @@
         justify-content: center;
     }
     .joinAButton {
-        width: auto;
+        width: 10em;
     }
     .leftContent {
         grid-column: 1 / 2;
