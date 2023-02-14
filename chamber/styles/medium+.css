@@ -47,6 +47,10 @@
         align-items:unset;
     }
     .welcomeA {
+        
+        background-image: url('../images/newHeroImageMedium.jpg');
+        background-size: cover;
+        background-position: center;
         grid-column: 1 / 4;
         grid-row: 1 / 2;
         height: 100%;

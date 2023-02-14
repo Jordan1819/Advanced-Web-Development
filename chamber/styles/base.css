@@ -144,7 +144,7 @@ article:last-child {
     margin-bottom: 0px;
 }
 .welcomeA {
-    background-image: url('../images/newHeroImage.jpg');
+    background-image: url('../images/newHeroImageSmall.jpg');
     background-size: cover;
     background-position: center;
 }
