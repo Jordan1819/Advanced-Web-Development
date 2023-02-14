@@ -2,6 +2,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow-x: hidden;
+}
 body {
     font-size: 1em;
     font-family: 'Times New Roman', Times, serif;
@@ -145,6 +151,14 @@ article:last-child {
 }
 .welcomeA {
     background-image: url('../images/newHeroImageSmall.jpg');
+    background-image: -webkit-image-set(
+        url("../images/newHeroImageSmall.jpg") 1x,
+        url("../images/newHeroImageMedium.jpg") 2x,
+        url("../images/newHeroImage.jpg") 3x);
+    background-image: image-set(
+        url("../images/newHeroImageSmall.jpg") 1x,
+        url("../images/newHeroImageMedium.jpg") 2x,
+        url("../images/newHeroImage.jpg") 3x);
     background-size: cover;
     background-position: center;
 }
