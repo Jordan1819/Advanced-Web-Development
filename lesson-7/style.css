@@ -1,0 +1,16 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 3em;
+}
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    object-fit: contain;
+    margin-top: 8px;
+}
