@@ -1,0 +1,101 @@
+div {
+    color: darkblue;
+    margin-bottom: 7em;
+    font-size: 35px;
+}
+
+.exampleDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+}
+
+.widthDiv {
+    margin-top: 1em;
+    width: 300px;
+    background-color: aqua;
+    text-align: center;
+    transition: width 4s;
+}
+.widthDiv:hover {
+    width: 600px;
+}
+
+
+.fadeInDiv {
+    margin-top: 2em;
+    width: 300px;
+    background-color: aqua;
+    text-align: center;
+    opacity: 0.25;
+    transition: opacity 2s;
+}
+.fadeInDiv:hover {
+    opacity: 1;
+}
+
+.widthHeight {
+    margin-top: 2em;
+    width: 300px;
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    transition: width 4s, height 5s;
+}
+.widthHeight:hover {
+    width: 700px;
+    height: 100px;
+}
+
+.changeColor {
+    margin-top: 2em;
+    width: 300px;
+    background-color: aqua;
+    text-align: center;
+    transition: color 2s, background-color 4s;
+}
+.changeColor:hover {
+    color: white;
+    background-color: black;
+}
+
+.rotate {
+    margin-top: 2em;
+    width: 300px;
+    background-color: aqua;
+    text-align: center;
+    transition: -webkit-transform 1.5s;
+}
+.rotate:hover {
+    -webkit-transform: rotateZ(50deg);
+    /*Keep in mind that transformations like these may
+    need different methods for different browsers */
+}
+
+.shapeDelay {
+    margin-top: 2em;
+    width: 300px;
+    background-color: aqua;
+    text-align: center;
+    transition: border-radius 2s;
+    transition-delay: 1.5s;
+}
+.shapeDelay:hover {
+    border-radius: 40px;
+}
+
+.transition {
+    margin-top: 2em;
+    width: 320px;
+    background-color: aqua;
+    text-align: center;
+    transition: width 2s, height 2s, transform 4s, background-color 2s;
+}
+.transition:hover {
+    width: 550px;
+    height: 250px;
+    transform: rotate(360deg);
+    background-color: blueviolet;
+}
