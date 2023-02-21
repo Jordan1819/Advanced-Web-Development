@@ -216,3 +216,33 @@ footer {
     font-size: 1.25em;
 }
 
+/* Discover Page CSS */
+
+.discoverHeader {
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.discoverContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discoverContent img {
+    width: 250px;
+    height: auto;
+    border-radius: 25px;
+    border: solid white;
+}
+
+.discoverContet h2 {
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
