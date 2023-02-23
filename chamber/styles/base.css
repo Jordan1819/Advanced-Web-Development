@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 html, body {
@@ -119,13 +119,16 @@ nav a:hover {
     background-color: white; opacity: .75;
     color: black;
 }
+nav {
+    border-bottom: 2px solid white;
+}
 main {
-    align-items: center;
-    background-color: #156c41;
+    background-image: linear-gradient(#156c41, rgb(0, 35, 0));
 }
 .welcomeHeader {
     position: relative;
     right: 100px;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 h2 {
     color: white;
@@ -138,10 +141,12 @@ h3 {
     color: white;
 }
 article {
-    background-image: linear-gradient(#5D4A66, rgb(41, 14, 41));
+    background-image: linear-gradient(#574d68, #87BBA2);
     border: 2px outset #DADAD9;
     text-align: center;
     margin: 2px;
+    border-radius: 15px;
+    color: white;
 }
 article:first-child {
     margin-top: 0px;
@@ -169,7 +174,7 @@ article:last-child {
     border-radius: 25px;
     position: relative;
     left: 100px;
-    background-color: #156c41;
+    background-image: linear-gradient(#87BBA2, #156c41);
     font-size: 1.5em;
 }
 .weatherHeader2 {
@@ -177,6 +182,9 @@ article:last-child {
 }
 .joinA {
     display: none;
+}
+.joinAButton {
+    background-image: linear-gradient(#87BBA2, #156c41);
 }
 .spotlightImage {
     width: 200px;
@@ -210,7 +218,7 @@ article:last-child {
     margin-top: 10px;
 }
 footer {
-    background-image: linear-gradient(#156c41, rgb(0, 35, 0));
+    background-image: linear-gradient(rgb(0, 35, 0), #156c41);
     color: white;
     text-align: center;
     font-size: 1.25em;
@@ -218,31 +226,36 @@ footer {
 
 /* Discover Page CSS */
 
-.discoverHeader {
-    margin: 0 auto;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+
+.discoverFood, .discoverMarket, .discoverHiking, 
+.discoverMusic, .discoverBaseball {
+    width: 90%;
+    margin: 0 auto 20px;
 }
 
-.discoverContent {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.discoverContent img {
-    width: 250px;
+.discoverFood img, .discoverMarket img, .discoverHiking img, 
+.discoverMusic img, .discoverBaseball img {
+    width: 75%;
     height: auto;
     border-radius: 25px;
     border: solid white;
 }
 
-.discoverContet h2 {
+
+/* Discover Page Elements */
+
+.discoverHeader {
+    margin-bottom: 10%;
+    margin-top: 0;
+    color: white;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid white;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 15px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.timeBetweenVisits {
+    font-size: 25px;
 }
