@@ -29,6 +29,6 @@ td {
     background-color: gray;
     color: white;
 }
-.row3 {
-    background-color: rgb(217, 217, 217);
-}
+tr:nth-child(even) {
+    background-color: #9099dd;
+  }
