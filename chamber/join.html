@@ -15,6 +15,11 @@
 https://pixabay.com, https://clipartmax.com and https://pexels.com -->
 <!-- Code inspiration from https://w3schools.com and 
 https://developer.mozilla.org-->
+<script>
+    window.onload = function() {
+        storeCurrentDate();
+    }
+</script>
 </head>
 <header>
 	<div class="headerGrid">
@@ -38,26 +43,96 @@ https://developer.mozilla.org-->
 <main>
 <div class="joinDiv">
     <h2 class="joinHeader">We would be honored if you would join the I.F chamber!&#x1F601;</h2>
-<form class="form1">
-    <label for="fname">First Name:</label><br>
-    <input type="text" id="fname:" name="fname" required><br>
 
-    <label for="lname">Last Name:</label><br>
-    <input type="text" id="lname:" name="lname" required><br>
+    <form  onsubmit="return validateForm()" class="form1">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname:" name="fname" required><br>
+        <br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname:" name="lname" required><br>
+        <br>
+    <!--only accepts alpha characters, hyphens, and spaces with a minimum of seven characters-->
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title"><br>
+        <br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="johnappleseed@gmail.com" required><br>
+        <br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br>
+        <br>
+        <label for="businessName">Business Name/Title:</label><br>
+        <input type="text" id="businessName" name="businessName"required><br>
+        <br>
+        <br>
+        <br>
+        <h2 class="joinHeader2">Chamber Membership Options</h2>
+        <table class="joinTable">
+            <th class="joinTableHeader" colspan="5">Chamber Membership Tiers</th>
 
-<!--only accepts alpha characters, hyphens, and spaces with a minimum of seven characters-->
-    <label for="titleInput">Title:</label><br>
-    <input type="text" id="titleInput:" name="titleInput"><br>
-    
-</form>
+            <tr class="row1">
+                <td></td>
+                <td>Non-Profit</td>
+                <td>Bronze</td>
+                <td>Silver</td>
+                <td>Gold</td>
+            </tr>
+            <tr class="row2">
+                <td>Cost</td>
+                <td>Free</td>
+                <td>$9.99/mo</td>
+                <td>$19.99/mo</td>
+                <td>$29.99/mo</td>
+            </tr>
+            <tr class="row3">
+                <td>Networking</td>
+                <td>Access to vending and events</td>
+                <td>Access to vending and events</td>
+                <td>Acces to vending and events</td>
+                <td>First access to vending and events</td>
+            </tr>
+            <tr class="row4">
+                <td>Advertising</td>
+                <td>No access</td>
+                <td>Access to basic advertising</td>
+                <td>First access to basic advertising and access to advanced advertising</td>
+                <td>First access to basic and advanced advertising</td>
+            </tr>
+            <tr class="row5">
+                <td>Partner Discounts</td>
+                <td>5% off</td>
+                <td>15% off</td>
+                <td>20% off</td>
+                <td>30% off</td>
+
+            </tr>
+        </table>
+        <br>
+        <label for="membershipTiers">Choose your membership level:</label><br>
+        <select name="membershipTiers" id="membershipTiers">
+            <option value="nonProfit">Non-Profit</option>
+            <option value="bronze">Bronze Member</option>
+            <option value="silver">Silver Member</option>
+            <option value="gold">Gold Member</option>
+        </select>
+        <br>
+        <br>
+        <label for="businessDescription">Business Description:</label><br>
+        <textarea id="businessDescription" name="businessDescription" rows="10" cols="30"></textarea><br>
+        <input type="hidden" id="dateAccessed" name="dateAccessed" value="">
+
+        <br>
+        <br>
+        <br>
+        
+        <input id="submitButton" onclick="window.location.href = 'thankyou.html';"type="submit" value="Submit">
+        
+    </form>
 
 
 
 </div>
-
-
-
-
+<br>
 </main>
 <footer>
 	<img class="footerLogo" src="images/logoImage.jpg" alt="logo image">

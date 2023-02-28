@@ -242,8 +242,16 @@
     }
 
 
+    /*Join Page Styles*/
 
 
+    .joinDiv {
+        grid-column: 1 / 5;;
+    }
+    .joinHeader {
+        font-size: 3em;
+        text-decoration: underline;
+    }
 
 
 }
