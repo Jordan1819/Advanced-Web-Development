@@ -1,26 +1,20 @@
 
 // Join Page
 
-function validateTitleInput(inputValue) {
-    // Regular expression to check for valid title format
-    const titleRegex = /^[A-Za-z\s\-]{7,}$/;
-  
-    // Check if the input value matches the regex pattern
-    if (titleRegex.test(inputValue)) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-  
-  function validateForm() {
+function validateTitle() {
+    const regex = /^[a-zA-Z\- ]{7,}$/;
     const titleInput = document.getElementById("title");
-    const title = titleInput.value;
-    if (!validateTitleInput(title)) {
-      titleInput.setCustomValidity("Please enter a valid title with alpha characters, hyphens, and spaces and a minimum of seven characters.");
+  
+    if (!regex.test(titleInput.value)) {
+      // Display an error message
+      alert("The title must be at least 7 characters long and can only contain letters, hyphens, and spaces.");
+      // Clear the input field
+      titleInput.value = "";
+      // Set focus back to the input field
+      titleInput.focus();
       return false;
     }
-    // If the title is valid, allow the form to submit
+  
     return true;
   }
   

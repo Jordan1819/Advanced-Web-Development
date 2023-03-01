@@ -206,6 +206,109 @@
 }
 
 
+/* Join Page Styles */
+
+.joinDiv {
+    margin-top: 0;
+    grid-column: 1 / 4;
+    justify-content: center;
+    align-items: center;
+}
+.joinHeader {
+    font-size: 1.5em;
+    margin-top: 0%;
+    text-align: center;
+    font-size: 2em;
+}
+.form1 {
+    display: block;
+    text-align: center;
+}
+.joinTable {
+    width: 80%;
+}
+#businessDescription {
+    width: 80%;
+}
+input {
+    border-radius: 5px;
+    display:inline-block;
+    font-size: 1.5em;
+}
+label {
+    color: white;
+    text-align: center;
+    display: block;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+table {
+    color: white;
+    border: 1px solid white;
+    background-image: linear-gradient(#87BBA2, #156c41);
+    border-collapse: collapse;
+    
+}
+th, td {
+    border: 1px solid white;
+}
+#submitButton {
+    background-color: #87BBA2;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    transition: color 1s, background-color 2s;
+}
+#submitButton:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/* Thank You Styles */
+
+.cheersImage {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    height: 250px;
+    width: auto;
+}
+.cheersWrapper {
+    display: block;
+}
+.thankYouHeader {
+    width: 100%;
+    margin: 0 auto;
+    text-decoration: underline;
+    grid-column: 2 / 5;
+    font-size: 3em;
+    grid-row: 1 / 2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.thankYouImage {
+    width: 300px;
+    display: flex;
+    grid-row: 3 / 5;
+    grid-column: 3 / 5;
+    height: 500px;
+}
+.thankYouHeader2 {
+    margin: 0 auto;
+    width: 90%;
+    grid-column: 1 / 3;
+    font-size: 2em;
+    grid-row: 3 / 5;
+    display: flex;
+    align-items: center;
+}
+.thankYouHeader3 {
+    grid-row: 6 / 7;
+    grid-column: 1 / 5;
+    text-align: center;
+    font-size: 2em;
+}
 
 
 }

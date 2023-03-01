@@ -48,6 +48,7 @@ footer {
     grid-row: 2;
     bottom: 10%;
     font-size: 1.5em;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 .navigation li {
     display: none;
@@ -119,9 +120,6 @@ p {
 nav a:hover {
     background-color: white; opacity: .75;
     color: black;
-}
-nav {
-    border-bottom: 2px solid white;
 }
 main {
     background-image: linear-gradient(#156c41, rgb(0, 35, 0));
@@ -272,6 +270,7 @@ footer {
 .joinHeader {
     font-size: 1.5em;
     margin-top: 0%;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 .form1 {
     display: block;
@@ -289,6 +288,7 @@ label {
     margin-bottom: -10px;
     margin-top: 10px;
     font-size: 1.5em;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 table {
     color: white;
@@ -299,4 +299,27 @@ table {
 }
 th, td {
     border: 1px solid white;
+}
+#submitButton {
+    background-color: #87BBA2;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/* Thank You page */
+
+
+.thankYouHeader {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+.thankYouImage {
+    width: 300px;
+    display: flex;
+}
+.thankYouHeader2 {
+    margin: 0 auto;
+    width: 80%;
 }
