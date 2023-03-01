@@ -17,7 +17,6 @@
         list-style: none;
         display: flex;
         flex-direction: row;
-        gap: 5em;
         margin-top: 15px;
     }
     .navigation ul li {
@@ -32,9 +31,11 @@
         position: relative;
     }
     nav a:hover {
+        transition: background-color 1s, color 1s;
         background-color: white; 
         opacity: .75;
         color: black;
+        border-radius: 20px;
     }
     .headerGrid {
         display: grid;
