@@ -3,11 +3,14 @@ File: Javascript for chamber homepage*/
 
 
 /* This is the code to allow the drop-down menu to be toggled */
-const mainNav = document.querySelector('.navigation');
-const menuButton = document.querySelector('#menu');
 
-menuButton.addEventListener('click', () =>
-{mainNav.classList.toggle('responsive')}, false);
+function toggleMenu() {
+  document.querySelector('.navigation').classList.toggle('open');
+  document.getElementById('menu').classList.toggle('open');
+}
+
+const menuButton = document.getElementById('#menu');
+menuButton.onclick = toggleMenu;
 
 /* The code below is for inserting the current date
 into the header and footer */
