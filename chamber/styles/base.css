@@ -53,6 +53,7 @@ footer {
     display: none;
     justify-content: center;
     list-style-position: outside;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 .navigation {
     margin: 0 auto;
