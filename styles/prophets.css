@@ -1,0 +1,19 @@
+header, main {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
+img {
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+h3 {
+    border: 2px solid white;
+    padding: 5px;
+}
