@@ -12,6 +12,7 @@ h2 {
 }
 img {
     box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+    margin-bottom: 20px;
 }
 h3 {
     border: 2px solid white;
