@@ -326,5 +326,14 @@ th, td {
 .wireframeLink {
     font-size: 1.25em;
 }
+.cards {
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.directoryHeader {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
 
 }
