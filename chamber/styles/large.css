@@ -296,4 +296,14 @@
         text-align: center;
         font-size: 2em;
     }
+
+    /* Directory and Wireframe Styles */
+    .wireframeDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        grid-column: 1 / 5;
+        grid-row: auto;
+    }
 }

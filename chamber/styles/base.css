@@ -323,3 +323,12 @@ th, td {
     margin: 0 auto;
     width: 80%;
 }
+
+/* Directory and Wireframes Styles */
+
+.wireframeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

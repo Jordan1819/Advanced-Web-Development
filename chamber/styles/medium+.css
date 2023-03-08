@@ -310,5 +310,21 @@ th, td {
     font-size: 2em;
 }
 
+/* Directory and Wireframes Styles */
+
+.wireframeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 1 / 4;
+    grid-row: auto;
+}
+.wireframeHeader {
+    font-size: 2em;
+}
+.wireframeLink {
+    font-size: 1.25em;
+}
 
 }

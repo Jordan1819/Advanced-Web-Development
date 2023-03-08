@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Amare Global",
+        "address": "support@amare.com",
+        "phoneNumber": "888-898-8551",
+        "url": "https://www.amare.com/corporate/en-US/"
+    },
+    {
+        "name": "Melaeuca",
+        "address": "info@melaleuca.com",
+        "phoneNumber": "800-522-3172",
+        "url": "https://www.melaleuca.com/our-story/become-a-member"
+    },
+    {
+        "name": "Mountain View Hospital",
+        "address": "2325 Coronado St Idaho Falls, ID. 83404",
+        "phoneNumber": "208-557-2700",
+        "url": "https://www.mountainviewhospital.org/contact/"
+    },
+    {
+        "name": "Idahoan Foods",
+        "address": "6116 N River Road Idaho Falls, ID. 83402",
+        "phoneNumber": "800-746-7999",
+        "url": "https://idahoan.com/contact-us/"
+    },
+    {
+        "name": "Gold's Gym",
+        "address": "2263 Eagle Dr Idaho Falls, ID. 83406",
+        "phoneNumber": "208-524-4653",
+        "url": "https://www.goldsgym.com/ammon/"
+    },
+    {
+        "name": "Fuji Sushi & Hibacki",
+        "address": "2625 S 25th E Idaho Falls, ID. 83404",
+        "phoneNumber": "208-523-3854",
+        "url": "https://www.experiencefuji.com/"
+    },
+    {
+        "name": "Snow Eagle Brewing & Grill",
+        "address": "455 River Parkway Idaho Falls, ID",
+        "phoneNumber": "208-557-0455",
+        "url": "https://snoweaglebrewing.com/contact"
+    },
+    {
+        "name": "Woodland Furniture",
+        "address": "cabinetry@woodlandfurniture.com",
+        "phoneNumber": "208-523-9006",
+        "url": "https://woodlandfurniture.com/us/about/"
+    },
+    {
+        "name": "Idaho National Laboratory",
+        "address": "1955 N Fremont Ave Idaho Falls, ID. 83415",
+        "phoneNumber": "866-495-7440",
+        "url": "https://inl.gov/"
+    },
+    {
+        "name": "The Zone Sports Grill",
+        "address": "info@thezonegrill.com",
+        "phoneNumber": "208-524-6106",
+        "url": "https://thezonegrill.com/"
+    }
+]
