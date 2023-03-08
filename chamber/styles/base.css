@@ -345,7 +345,8 @@ section {
     background-image: linear-gradient(#87BBA2, #156c41);
     border: 1px solid white;
     border-radius: 20px;
-    margin: 15px;
+    margin-top: 40px;
+    width: 90%;
 }
 .directoryWrapper {
     background-image: linear-gradient(#156c41, rgb(0, 35, 0));
@@ -354,8 +355,11 @@ section {
     border-bottom: 2px solid white;
 }
 .directoryHeader {
-    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 50px;
     text-align: center;
+    font-size: 2em;
+
 }
 .wireframeWrapper {
     display: flex;
