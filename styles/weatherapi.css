@@ -1,0 +1,18 @@
+#weatherContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+body {
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#weather-icon {
+    width: 200%;
+}
+#caption {
+    font-size: 1.5em;
+
+}
