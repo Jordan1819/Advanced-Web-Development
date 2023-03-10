@@ -121,7 +121,8 @@ p {
     margin: 1px;
 }
 nav a:hover {
-    background-color: white; opacity: .75;
+    background-color: white; 
+    opacity: .75;
     color: black;
 }
 main {
