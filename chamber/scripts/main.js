@@ -76,3 +76,8 @@ if ("IntersectionObserver" in window) {
       loadImages(img);
     });
   }
+
+// Code for pulling current weather from https://openweathermap.org/city/5583997 and displaying
+// current temp on home page
+
+  
