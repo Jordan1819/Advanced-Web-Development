@@ -318,6 +318,7 @@ th, td {
     background-color: #87BBA2;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
+    margin-bottom: 10px;
 }
 
 /* Thank You page */
@@ -413,4 +414,8 @@ section {
 }
 .boardList li {
     margin-bottom: 10px;
+}
+.contactForm {
+    display: block;
+    text-align: center;
 }
