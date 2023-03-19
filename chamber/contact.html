@@ -37,35 +37,43 @@ https://developer.mozilla.org-->
 			<li><a href="discover.html">Discover</a></li>
 			<li><a href="join.html">Join Us</a></li>
 			<li><a href="directory.html">Directory</a></li>
-			<li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
 </header>
 <main>
-<img src="images/cheersImage.png" class="cheersImage">
-<h2 class="thankYouHeader">Thank you for your interest in joining us!</h2>
-<br>
-<br>
-<img class="thankYouImage" src="images/thankYouImage.png">
-<br>
-<br>
-<h3 class="thankYouHeader2">We have sent you an email with the steps required to finish your enrollment and account creation.</h3>
-<br>
-<br>
-<br>
-<h3 class="thankYouHeader3">If you have any questions or require any assistance please do not hesitate to <a class="contactLink" href="https://google.com" target="_blank">contact us</a>!</h3>
-
-
-
-
-
-
+    <div class="contactWrapper">
+        <h2 class="contactHeader">Contact Us:</h2>
+        <h3>Phone Number: 555-555-5555</h3>
+        <h3>Office Hours: Monday-Friday 9am-5pm</h3>
+        <ul class="boardList">
+            <h3>Board of Directors</h3>
+            <li>Tammy Haglund: 208-555-5555</li>
+            <li>Jeff Heath: 208-555-5555</li>
+            <li>James Nevarez: 208-555-5555</li>
+            <li>Rochelle Wright: 208-555-5555</li>
+            <li>Preston Hite: 208-555-5555</li>
+        </ul>
+        <h2>Have a question for us?</h2>
+        <form action="thankyou.html" class="contactForm">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname:" name="fname" required><br>
+            <br>
+            <label for="email">Email address:</label><br>
+            <input type="text" id="email:" name="email" required><br>
+            <br>
+            <label for="contactInfo">Ask your question here:</label><br>
+            <input type="text" id="contactInfo:" name="contactInfo" required><br>
+            <br>
+            <input id="submitButton" type="submit" value="Submit">
+        </form>
+    </div>
 </main>
 <footer>
 	<img class="footerLogo" src="images/logoImage.jpg" alt="logo image">
 	<h3 class="footerHeader">Idaho Falls Chamber of Commerce</h3>
 	
-	<div class= "footerInfo">
+    <div class= "footerInfo">
 	<p>info@ifchamber.com</p>
 	<p>(208)-123-4567</p>
 	<p>Location Map: &#128205;</p>

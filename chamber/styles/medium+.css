@@ -57,6 +57,7 @@
         grid-template-rows: 1fr 1fr;
         grid-column: 1 / 4;
         grid-row: 6 / 9;
+        width: 100%;
     }
     .ribbonA {
         grid-column: 1 / 4;
@@ -99,6 +100,7 @@
         grid-column: 1 / 4;
         grid-row: 4 / 6;
         height: 100%;
+        width: 100%;
     }
     .spotlight1 {
         grid-column: 1;
@@ -336,4 +338,12 @@ th, td {
     margin-bottom: 20px;
 }
 
+
+/* Contact Page Styles */
+
+
+.contactWrapper{
+    grid-column: 1 / 4;
+    grid-row: 1 / 5;
+}
 }

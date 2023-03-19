@@ -84,6 +84,7 @@
         grid-column: 2 / 4;
         grid-row: 1 / 2;
         height: 100%;
+        width: 100%;
     }
     .welcomeHeader {
         display: block;
@@ -303,6 +304,14 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        grid-column: 1 / 5;
+        grid-row: auto;
+    }
+
+    /* Contact Page Styles */
+
+
+    .contactWrapper{
         grid-column: 1 / 5;
         grid-row: auto;
     }
