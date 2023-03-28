@@ -26,14 +26,14 @@ p {
 a {
     font-size: 2em;
     text-decoration: none;
-    color: white;
+    color: #094d92;
     transition: color 2s;
 }
 a:hover {
-    color: #094d92;
+    color: black;
 }
 a:visited {
-    color: white;
+    color: #094d92;
 }
 
 
@@ -62,7 +62,7 @@ header {
     align-self: end;
 }
 .navLinks:hover {
-    color: #094d92;
+    color: white;
 }
 
 
@@ -101,6 +101,7 @@ header {
     background-color: #094d92;
     border-radius: 25px;
     padding: 10px;
+    color: white;
 }
 .card {
     box-shadow: 0 4px 8px 0;
