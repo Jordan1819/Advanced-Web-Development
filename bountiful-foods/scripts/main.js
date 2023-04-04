@@ -1,3 +1,5 @@
+/* Author: Jordan Waite */
+
 /* Lazy loading of images here */
 
 let imagesToLoad = document.querySelectorAll("img[data-src]");
