@@ -1,4 +1,5 @@
 /* Author: Jordan Waite */
+/*Javascript for Bountiful Foods Site */
 
 /* Lazy loading of images here */
 
@@ -33,3 +34,50 @@ if ("IntersectionObserver" in window) {
       loadImages(img);
     });
   }
+
+  /* Section for pulling and displaying weather data */
+
+const currentTemp = document.querySelector('#current-temp');
+const currentCondition = document.querySelector('#current-condition');
+const currentHumidity = document.querySelector('#current-humidity');
+
+
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Carlsbad,US&appid=55d6d2d1554e3eba2d95f26f702da6fe&units=imperial';
+
+async function apiFetch() {
+    try {
+      const response = await fetch(url);
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data);
+        displayResults(data);
+      } else {
+          throw Error(await response.text());
+      }
+    } catch (error) {
+        console.log(error);
+    }
+  }
+  
+  apiFetch();
+
+function displayResults(weatherData) {
+  currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+  const desc = weatherData.weather[0].description;
+  const humidity = weatherData.main.humidity.toFixed(0);
+  const finalHumidity = humidity + "%";
+  currentCondition.textContent = desc;
+  currentHumidity.textContent = finalHumidity;
+
+}
+
+
+/* Section for pulling fruit data from the JSON file */
+fetch('https://brotherblazzard.github.io/canvas-content/fruit.json')
+.then(response => response.json())
+.then(data => {
+  const fruitOptions = data.fruit(fruit => `<option value="${fruit}">${fruit}</option>`);
+
+  const fruitSelects = document.querySelectorAll('select[name^="fruit"]');
+  fruitSelects.forEach(select => select.innerHTML = fruitOptions.join(''));
+});

@@ -11,7 +11,7 @@ html, body {
     overflow-x: hidden;
 }
 main {
-    background-image: linear-gradient(#DF928e, rgb(221, 155, 193));
+    background-image: linear-gradient(#e7463e, rgb(157, 223, 243));
 }
 h1, h2 {
     color: white;
@@ -47,7 +47,7 @@ header {
 }
 #headerDiv {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 1fr, 200px;
     grid-template-columns: repeat(3, minmax(100px, 1fr));
     flex-direction: row;
     align-items: center;
@@ -59,6 +59,7 @@ header {
 }
 #headerTitle {
     grid-column: 2 /4;
+    font-size: 3.5em;
 }
 .navLinks {
     align-self: end;
@@ -139,6 +140,17 @@ header {
     font-size: 1.25em;
     margin-top: 10px;
 }
+#current-condition {
+    color: white;
+    text-shadow: black 2px 1px;
+    text-transform: capitalize;
+    font-size: 1.25em;
+}
+#current-humidity {
+    color: white;
+    text-shadow: black 2px 1px;
+    font-size: 1.25em;
+}
 
 
 
@@ -175,4 +187,16 @@ header {
 }
 .fa:hover {
     color: #094d92;
+}
+
+
+/* Fresh Page CSS */
+
+#freshForm {
+    font-size: 3em;
+    color: white;
+    text-shadow: black 2px 1px;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
 }

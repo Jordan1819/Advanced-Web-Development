@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1100px) {
+    #headerTitle {
+        font-size: 7em;
+        text-shadow: black 4px 2px;
+    }
+    #logoImage {
+        width: 250px;
+        justify-self: start;
+    }
+    .fa {
+        font-size: 5em;
+    }
+    #footerHeader {
+        font-size: 4em;
+    }
+    #footerContact {
+        font-size: 4em;
+    }
+    #bannerImage {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+}

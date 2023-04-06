@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -27,13 +28,64 @@
     special instructions, if needed.-->
 </head>
 <header>
-    
+    <div id="headerDiv">
+        <img src="images/logoImage.png" alt="fruit logo image" id="logoImage">
+        <h2 id="headerTitle">Bountiful Foods</h2>
+            <a class="navLinks" href="fresh.html">Fresh</a>
+            <a class="navLinks" href="index.html">Home</a>
+            <a class="navLinks" href="about.html">About</a>
+    </div>
 </header>
-<body>
-
-</body>
+<main>
+    <div id="homeDiv">
+        <div id="bannerContainer">
+            <img id="bannerImage" src="images/placeholder.jpg" data-src="images/bannerImage.jpg" alt="healthy food picture">
+            <div id="bannerText">
+                <h2 id="bannerHeader">Customize Your Order</h2>
+            </div>
+        </div>
+        <div class="card">
+            <form id="freshForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+              
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required><br><br>
+              
+                <label for="fruit1">Fruit 1:</label>
+                <select id="fruit1" name="fruit1" required>
+                </select><br><br>
+              
+                <label for="fruit2">Fruit 2:</label>
+                <select id="fruit2" name="fruit2" required>
+                </select><br><br>
+              
+                <label for="fruit3">Fruit 3:</label>
+                <select id="fruit3" name="fruit3" required>
+                </select><br><br>
+              
+                <label for="specialInstructions">Special Instructions:</label><br>
+                <textarea id="specialInstructions" name="specialInstructions"></textarea><br><br>
+              
+                <input id="submitButton" type="submit" value="Submit">
+              </form>
+              <br>
+        </div>
+    </div>
+</main>
 <footer>
-
+    <div id="footerDiv">
+        <h2 id="footerHeader">Connect:</h3>
+        <p id="footerContact">691-845-9000</p>
+        <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube"></a>
+    
+    </div>
 </footer>
 <script type="text/javascript" src="scripts/main.js"></script>
 </html>
