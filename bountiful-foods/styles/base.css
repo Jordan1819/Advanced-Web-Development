@@ -178,7 +178,7 @@ header {
     grid-column: 3 / 5;
     font-size: 1.5em;
     margin: 10px;
-    text-shadow: black 1px 1px;
+    text-shadow: black 2px 1px;
 }
 .fa {
     font-size: 40px;
@@ -187,6 +187,11 @@ header {
 }
 .fa:hover {
     color: #094d92;
+}
+#footerDate {
+    color: white;
+    font-size: 1em;
+    text-shadow: black 2px 1px;
 }
 
 

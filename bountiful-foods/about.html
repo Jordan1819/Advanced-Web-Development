@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -15,13 +16,42 @@
     and a Google Map and other relevant content.-->
 </head>
 <header>
-
+    <div id="headerDiv">
+        <img src="images/logoImage.png" alt="fruit logo image" id="logoImage">
+        <h2 id="headerTitle">Bountiful Foods</h2>
+            <a class="navLinks" href="fresh.html">Fresh</a>
+            <a class="navLinks" href="index.html">Home</a>
+            <a class="navLinks" href="about.html">About</a>
+    </div>
 </header>
-<body>
-
-</body>
+<main>
+    <div id="homeDiv">
+        <div id="bannerContainer">
+            <img id="bannerImage" src="images/placeholder.jpg" data-src="images/bannerImage.jpg" alt="healthy food picture">
+            <div id="bannerText">
+                <h2 id="bannerHeader">Customize your smoothie</h2>
+                <a href="fresh.html" id="bannerLink">Order Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <p class="cardInfo">Bountiful Foods is a leading food company based in Carlsbad, California, that specializes in working with local farmers to provide the freshest and most nutritious fruits and vegetables to its customers. The company prides itself on its commitment to sourcing only the best produce from local farmers, ensuring that their products are of the highest quality. Bountiful Foods believes that supporting local agriculture is crucial for the health of the community and the environment.</p>
+        </div>
+        <div class="card">
+            <p class="cardInfo">The company's flagship product is its range of delicious and healthy smoothies made from the freshest fruits and vegetables available. The smoothies are a hit with customers, who appreciate the company's commitment to using only the freshest ingredients. Bountiful Foods' smoothies come in a variety of flavors and are made with a combination of fruits and vegetables that are carefully selected for their taste and nutritional value. The company's smoothies are a great way to start the day or as a healthy snack on the go. Bountiful Foods has become a household name in Carlsbad, and its commitment to local farmers and the community has earned it a loyal following.</p>
+        </div>
+    </div>
+<br>
+<br>
+</main>
 <footer>
-
+    <div id="footerDiv">
+        <h2 id="footerHeader">Connect:</h3>
+        <p id="footerContact">691-845-9000</p>
+        <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+        <p id="footerDate"></p>
+    </div>
 </footer>
 <script type="text/javascript" src="scripts/main.js"></script>
 </html>

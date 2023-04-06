@@ -81,3 +81,15 @@ fetch('https://brotherblazzard.github.io/canvas-content/fruit.json')
   const fruitSelects = document.querySelectorAll('select[name^="fruit"]');
   fruitSelects.forEach(select => select.innerHTML = fruitOptions.join(''));
 });
+
+
+/* Section for putting the last modified date in the footer */
+var d = new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"});
+const yearDate = new Date();
+const year = yearDate.getFullYear();
+const foot = `Last Updated: ${d}`;
+
+const footerDate = document.querySelector('#footerDate');
+
+footerDate.textContent = foot;
+

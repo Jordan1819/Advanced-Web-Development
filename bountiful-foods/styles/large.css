@@ -21,4 +21,10 @@
         width: 100%;
         object-fit: cover;
     }
+    #footerDate {
+        color: white;
+        font-size: 2em;
+        text-shadow: black 2px 2px;
+    }
+    
 }
