@@ -28,10 +28,10 @@ The design focuses on a **bright, welcoming theme** that reflects the community-
 ---
 
 ## 📱 Screenshots
-# Browser View
+### PC Browser View
 ![](screenshots/wd2.png)
 
-# Mobile View with Expanded Hamburger Menu
+### Mobile View with Expanded Hamburger Menu
 ![](creenshots/wd3.png)
 
 ---
