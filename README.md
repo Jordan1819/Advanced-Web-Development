@@ -1,4 +1,5 @@
 # 🌐 Chamber of Commerce Website  
+![](screenshots/wd1.png)
 
 ## ✨ Overview  
 This project is a fully responsive example website created for the **Idaho Falls Chamber of Commerce**.  
@@ -26,7 +27,12 @@ The design focuses on a **bright, welcoming theme** that reflects the community-
 
 ---
 
+## 📱 Screenshots
+# Browser View
+![](screenshots/wd2.png)
 
+# Mobile View with Expanded Hamburger Menu
+![](creenshots/wd3.png)
 
 ---
 
